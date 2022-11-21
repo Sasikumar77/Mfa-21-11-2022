@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.logo{
+    margin-left: 70px;
+}
+ul{
+    list-style: none;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 70px;
+    font-family: Barlow;
+}
+
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.button-1{
+    border: 1px solid  hsl(255deg 43% 28%);
+    background-color:  hsl(255deg 43% 28%);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 30%;
+
+}
+.button-1 a{
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.main-para{
+    width: 40%;
+    font-family: Barlow;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.main-para h1{
+ width: 600px;
+ font-weight: 700;
+ font-size: 50px;
+ margin-top: 20px;
+ color:  hsl(255deg 43% 28%);
+}
+.label{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-image{
+    margin-top: 70px;
+    margin-right: 80px;
+}
+.main-para p{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 800px;
+}
+.label{
+    margin-top: 20px;
+    margin-right: 190px;
+    
+}
+input{
+    width: 300px;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.628);
+    border-radius: 5px;
+    
+}
+.button-2{
+    border: 1px solid  hsl(255deg 43% 28%);
+    background-color:  hsl(255deg 43% 28%);
+   
+    border-radius: 10px;
+    margin-left: 30px;
+   padding: 20px;
+   position: absolute;
+   left: 30%;
+   bottom: 38%;
+}
+.button-2 a{
+    color: white;
+    text-decoration: none;
+}
+.foot-para{
+    font-family: Barlow;
+    color: rgb(63, 63, 63);
+    margin-left: 20px;
+}
+footer{
+    margin-left: 70px;
+    margin-top: 100px;
+
+}
+.foot-img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+.learn{
+    border: 1px solid hsl(255deg 43% 28%);
+    background-color: hsl(255deg 43% 28%);
+    padding: 10px;
+    border-radius: 30px;    
+}
+.learn p,a{
+    color: rgba(255, 255, 255, 0.87);
+    margin-left:10px;
+}
+.learn a{
+
+}
